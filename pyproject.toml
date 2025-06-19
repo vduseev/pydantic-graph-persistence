@@ -1,0 +1,43 @@
+[project]
+name = "pydantic-graph-persistence"
+version = "0.1.0"
+description = "Nice persistence abstractions for pydantic-graph"
+readme = "README.md"
+authors = [
+    { name = "vduseev", email = "vagiz@duseev.com" }
+]
+maintainers = [
+    { name = "vduseev", email = "vagiz@duseev.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic-graph>=0.3.1",
+]
+keywords = ["pydantic-graph", "graph", "persistence", "database", "pydantic"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+
+[project.urls]
+"Homepage" = "https://github.com/vduseev/pydantic-graph-persistence"
+"Documentation" = "https://github.com/vduseev/pydantic-graph-persistence"
+"Repository" = "https://github.com/vduseev/pydantic-graph-persistence"
+"Issues" = "https://github.com/vduseev/pydantic-graph-persistence/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
